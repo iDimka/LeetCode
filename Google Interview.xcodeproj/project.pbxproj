@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D8923F6683B00182AF8 /* atoi.swift */; };
+		5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */; };
 		5D53A26123D0C68B0007E99E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26023D0C68B0007E99E /* main.swift */; };
+		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
+		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
+		5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26B23D13D4B0007E99E /* Next Permutation.swift */; };
+		5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D474D8923F6683B00182AF8 /* atoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atoi.swift; sourceTree = "<group>"; };
+		5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		5D53A25D23D0C68B0007E99E /* Google Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Interview"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53A26023D0C68B0007E99E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
+		5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit Into Baskets.swift"; sourceTree = "<group>"; };
+		5D53A26B23D13D4B0007E99E /* Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Next Permutation.swift"; sourceTree = "<group>"; };
+		5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */,
+				5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */,
+				5D53A26B23D13D4B0007E99E /* Next Permutation.swift */,
+				5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */,
+				5D474D8923F6683B00182AF8 /* atoi.swift */,
+				5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -120,6 +138,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */,
+				5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */,
+				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
+				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
+				5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */,
+				5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */,
 				5D53A26123D0C68B0007E99E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

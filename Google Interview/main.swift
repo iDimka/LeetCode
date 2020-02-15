@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
+_Sum_Closest.test()
 
