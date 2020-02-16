@@ -11,28 +11,29 @@ import Cocoa
 class Longest_Substring_Without_Repeating_Characters {
     class func lengthOfLongestSubstring(_ s: String) -> Int {
         guard s.count > 1 else { return s.count }
-      
-        var left = 0
-        var right = 0
+        
+        var left = s.index(s.startIndex, offsetBy: 0)
+        var right = s.index(s.startIndex, offsetBy: 0)
+        let count = s.index(s.startIndex, offsetBy: s.count)
         var maxValue = 0
-        var cache: [Character] = []
-        let count = s.count
+        var cache: Set<Character> = Set()
         
         while left < count, right < count {
-            let rightIndex = s.index(s.startIndex, offsetBy: right)
-            let rightChar = s[rightIndex]
+            let rightChar = s[right]
             
             if cache.contains(rightChar) {
-                left += 1
-                cache.removeAll { $0 == rightChar }
+                cache.remove(s[left])
+                print("char: \(rightChar) - has dupblicate")
+                left = s.index(left, offsetBy: 1) // + 1
             } else {
-                cache += [rightChar]
-                right += 1
-                maxValue = max(maxValue, right - left)
+                print("char: \(rightChar)")
+                cache.insert(rightChar)
+                right = s.index(right, offsetBy: 1)
+                let distance = s.distance(from: left, to: right)
+                maxValue = max(maxValue, distance)
             }
         }
         
-//        maxValue = max(maxValue, right - left)
         return maxValue
     }
     
