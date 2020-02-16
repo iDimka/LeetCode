@@ -1,11 +1,3 @@
-//
-//  atoi.swift
-//  Google Interview
-//
-//  Created by Dmitry Sazanovich on 2/13/20.
-//  Copyright © 2020 idimka. All rights reserved.
-//
-
 import Cocoa
 
 class atoiSolution {
@@ -47,7 +39,7 @@ class atoiSolution {
     
     class func test() {
 //        let value: Int = 20000000000000000000
-        print(Int(Int32.max))
+        
         print(myAtoi("18446744073709551619"))
     }
 }

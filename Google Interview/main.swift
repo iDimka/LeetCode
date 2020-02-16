@@ -8,5 +8,5 @@
 
 import Foundation
 
-_Sum_Closest.test()
+_3SumSolution.test()
 

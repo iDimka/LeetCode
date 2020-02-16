@@ -9,30 +9,30 @@
 import Cocoa
 
 class _Sum_Closest: NSObject {
-    class func _threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
-        var minDiff = Int.max
-        
-        let count = nums.count
-        (0..<count).forEach { (firstIndex) in
-            (firstIndex+1..<count).forEach { (secondIndex) in
-                (secondIndex+1..<count).forEach { (thirdIndex) in
-                    
-                    let first = nums[nums.index(nums.startIndex, offsetBy: firstIndex)]
-                    let second = nums[nums.index(nums.startIndex, offsetBy: secondIndex)]
-                    let third = nums[nums.index(nums.startIndex, offsetBy: thirdIndex)]
-                    
-                    let sum = first + second + third
-                    let maxValue = max(target, sum)
-                    
-                    minDiff = min(maxValue, minDiff)
-                }
-            }
-        }
-        
-        return minDiff
-    }
+//    class func _threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
+//        var minDiff = Int.max
+//        
+//        let count = nums.count
+//        (0..<count).forEach { (firstIndex) in
+//            (firstIndex+1..<count).forEach { (secondIndex) in
+//                (secondIndex+1..<count).forEach { (thirdIndex) in
+//                    
+//                    let first = nums[nums.index(nums.startIndex, offsetBy: firstIndex)]
+//                    let second = nums[nums.index(nums.startIndex, offsetBy: secondIndex)]
+//                    let third = nums[nums.index(nums.startIndex, offsetBy: thirdIndex)]
+//                    
+//                    let sum = first + second + third
+//                    let maxValue = max(target, sum)
+//                    
+//                    minDiff = min(maxValue, minDiff)
+//                }
+//            }
+//        }
+//        
+//        return minDiff
+//    }
     
-    class func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {        
+    class func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         var minDiffSum = Int.max / 2
         let sortedNums = nums.sorted()
         print("Sorted: \(sortedNums)\n")
