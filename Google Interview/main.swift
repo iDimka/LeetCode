@@ -8,5 +8,5 @@
 
 import Foundation
 
-_3SumSolution.test()
+Move_Zeroes.test()
 
