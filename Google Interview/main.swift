@@ -8,5 +8,5 @@
 
 import Foundation
 
-Move_Zeroes.test()
+RotateArray.test()
 
