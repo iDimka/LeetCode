@@ -14,6 +14,7 @@
 		5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D9123FA0C4600182AF8 /* Rotate Array.swift */; };
 		5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D9323FA289400182AF8 /* Rotate Image.swift */; };
 		5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245D023FE5CDB001CE63C /* Intersection of Two Arrays II.swift */; };
+		5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245D223FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift */; };
 		5D53A26123D0C68B0007E99E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26023D0C68B0007E99E /* main.swift */; };
 		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
@@ -41,6 +42,7 @@
 		5D474D9123FA0C4600182AF8 /* Rotate Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate Array.swift"; sourceTree = "<group>"; };
 		5D474D9323FA289400182AF8 /* Rotate Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate Image.swift"; sourceTree = "<group>"; };
 		5D5245D023FE5CDB001CE63C /* Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
+		5D5245D223FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		5D53A25D23D0C68B0007E99E /* Google Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Interview"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53A26023D0C68B0007E99E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
 				5D5245D023FE5CDB001CE63C /* Intersection of Two Arrays II.swift */,
+				5D5245D223FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift */,
 				5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */,
 				5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */,
 				5D53A26B23D13D4B0007E99E /* Next Permutation.swift */,
@@ -155,6 +158,7 @@
 			files = (
 				5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */,
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
+				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */,
 				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
