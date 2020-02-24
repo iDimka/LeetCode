@@ -1,4 +1,4 @@
 import Foundation
 
-Rotate_Image.test()
+Add_Two_Numbers.test()
 
