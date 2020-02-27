@@ -20,6 +20,7 @@
 		5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245D823FF9A5A001CE63C /* Reverse Integer.swift */; };
 		5D5245DB24035A77001CE63C /* SortStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DA24035A76001CE63C /* SortStack.swift */; };
 		5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DC240368F6001CE63C /* Add Two Numbers.swift */; };
+		5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */; };
 		5D53A26123D0C68B0007E99E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26023D0C68B0007E99E /* main.swift */; };
 		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
@@ -53,6 +54,7 @@
 		5D5245D823FF9A5A001CE63C /* Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Integer.swift"; sourceTree = "<group>"; };
 		5D5245DA24035A76001CE63C /* SortStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStack.swift; sourceTree = "<group>"; };
 		5D5245DC240368F6001CE63C /* Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add Two Numbers.swift"; sourceTree = "<group>"; };
+		5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
 		5D53A25D23D0C68B0007E99E /* Google Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Interview"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53A26023D0C68B0007E99E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				5D474D9323FA289400182AF8 /* Rotate Image.swift */,
 				5D5245DA24035A76001CE63C /* SortStack.swift */,
 				5D5245DC240368F6001CE63C /* Add Two Numbers.swift */,
+				5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
+				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
 				5D5245D523FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift in Sources */,

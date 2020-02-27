@@ -1,4 +1,4 @@
 import Foundation
 
-Add_Two_Numbers.test()
+Diameter_of_Binary_Tree.test()
 
