@@ -21,6 +21,15 @@
 		5D5245DB24035A77001CE63C /* SortStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DA24035A76001CE63C /* SortStack.swift */; };
 		5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DC240368F6001CE63C /* Add Two Numbers.swift */; };
 		5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */; };
+		5D5245EB24077FCE001CE63C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E124077FCD001CE63C /* BFS.swift */; };
+		5D5245EC24077FCE001CE63C /* Pascal's Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E224077FCD001CE63C /* Pascal's Triangle.swift */; };
+		5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E324077FCD001CE63C /* MaximumDepthOfBinaryTree .swift */; };
+		5D5245EE24077FCE001CE63C /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E424077FCD001CE63C /* Merge Two Sorted Lists.swift */; };
+		5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E524077FCE001CE63C /* K-th Symbol in Grammar .swift */; };
+		5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E624077FCE001CE63C /* Pow(x, n).swift */; };
+		5D5245F124077FCE001CE63C /* ReversedLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E724077FCE001CE63C /* ReversedLinkedList.swift */; };
+		5D5245F224077FCE001CE63C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E824077FCE001CE63C /* Fibonacci.swift */; };
+		5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E924077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift */; };
 		5D53A26123D0C68B0007E99E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26023D0C68B0007E99E /* main.swift */; };
 		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
@@ -55,6 +64,16 @@
 		5D5245DA24035A76001CE63C /* SortStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStack.swift; sourceTree = "<group>"; };
 		5D5245DC240368F6001CE63C /* Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add Two Numbers.swift"; sourceTree = "<group>"; };
 		5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
+		5D5245E024077FCD001CE63C /* BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		5D5245E124077FCD001CE63C /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		5D5245E224077FCD001CE63C /* Pascal's Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal's Triangle.swift"; sourceTree = "<group>"; };
+		5D5245E324077FCD001CE63C /* MaximumDepthOfBinaryTree .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MaximumDepthOfBinaryTree .swift"; sourceTree = "<group>"; };
+		5D5245E424077FCD001CE63C /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		5D5245E524077FCE001CE63C /* K-th Symbol in Grammar .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "K-th Symbol in Grammar .swift"; sourceTree = "<group>"; };
+		5D5245E624077FCE001CE63C /* Pow(x, n).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pow(x, n).swift"; sourceTree = "<group>"; };
+		5D5245E724077FCE001CE63C /* ReversedLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReversedLinkedList.swift; sourceTree = "<group>"; };
+		5D5245E824077FCE001CE63C /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		5D5245E924077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "No17.letter-combinations-of-a-phone-number.swift"; sourceTree = "<group>"; };
 		5D53A25D23D0C68B0007E99E /* Google Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Interview"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53A26023D0C68B0007E99E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
@@ -111,6 +130,16 @@
 				5D474D9323FA289400182AF8 /* Rotate Image.swift */,
 				5D5245DA24035A76001CE63C /* SortStack.swift */,
 				5D5245DC240368F6001CE63C /* Add Two Numbers.swift */,
+				5D5245E124077FCD001CE63C /* BFS.swift */,
+				5D5245E024077FCD001CE63C /* BST.swift */,
+				5D5245E824077FCE001CE63C /* Fibonacci.swift */,
+				5D5245E524077FCE001CE63C /* K-th Symbol in Grammar .swift */,
+				5D5245E324077FCD001CE63C /* MaximumDepthOfBinaryTree .swift */,
+				5D5245E424077FCD001CE63C /* Merge Two Sorted Lists.swift */,
+				5D5245E924077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift */,
+				5D5245E224077FCD001CE63C /* Pascal's Triangle.swift */,
+				5D5245E624077FCE001CE63C /* Pow(x, n).swift */,
+				5D5245E724077FCE001CE63C /* ReversedLinkedList.swift */,
 				5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */,
 			);
 			path = "Google Interview";
@@ -175,24 +204,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */,
+				5D5245EE24077FCE001CE63C /* Merge Two Sorted Lists.swift in Sources */,
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
+				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
+				5D5245F124077FCE001CE63C /* ReversedLinkedList.swift in Sources */,
 				5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */,
 				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
+				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
+				5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
+				5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */,
+				5D5245EC24077FCE001CE63C /* Pascal's Triangle.swift in Sources */,
 				5D5245D523FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */,
 				5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */,
 				5D474D8E23F9C73D00182AF8 /* 3Sum.swift in Sources */,
 				5D5245D723FE6A9D001CE63C /* Plus One.swift in Sources */,
 				5D474D9023FA083C00182AF8 /* Move Zeroes.swift in Sources */,
+				5D5245F224077FCE001CE63C /* Fibonacci.swift in Sources */,
 				5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */,
 				5D53A26123D0C68B0007E99E /* main.swift in Sources */,
+				5D5245EB24077FCE001CE63C /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
