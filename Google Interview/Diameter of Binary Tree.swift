@@ -8,10 +8,6 @@
 
 import Cocoa
 
-/**
- * Definition for a binary tree node.
- * }
- */
 class Diameter_of_Binary_Tree: NSObject {
     public class TreeNode {
         public var val: Int
@@ -19,8 +15,6 @@ class Diameter_of_Binary_Tree: NSObject {
         public var right: TreeNode?
         public init(_ val: Int) {
             self.val = val
-            self.left = nil
-            self.right = nil
         }
     }
     
