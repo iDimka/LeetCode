@@ -1,4 +1,4 @@
 import Foundation
 
-BinarySearch.test()
+Merge_Intervals.test()
 

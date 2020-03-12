@@ -35,6 +35,8 @@
 		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
 		5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26B23D13D4B0007E99E /* Next Permutation.swift */; };
+		5D681090241742890015E053 /* SearchSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68108F241742890015E053 /* SearchSubstring.swift */; };
+		5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6810912418B0A80015E053 /* Merge Intervals.swift */; };
 		5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
 		5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit Into Baskets.swift"; sourceTree = "<group>"; };
 		5D53A26B23D13D4B0007E99E /* Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Next Permutation.swift"; sourceTree = "<group>"; };
+		5D68108F241742890015E053 /* SearchSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSubstring.swift; sourceTree = "<group>"; };
+		5D6810912418B0A80015E053 /* Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Intervals.swift"; sourceTree = "<group>"; };
 		5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +148,8 @@
 				5D5245E724077FCE001CE63C /* ReversedLinkedList.swift */,
 				5D5245DE240779E2001CE63C /* Diameter of Binary Tree.swift */,
 				5D5245F4240AD0C5001CE63C /* Search in Rotated Sorted Array.swift */,
+				5D68108F241742890015E053 /* SearchSubstring.swift */,
+				5D6810912418B0A80015E053 /* Merge Intervals.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 				5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */,
 				5D5245EE24077FCE001CE63C /* Merge Two Sorted Lists.swift in Sources */,
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
+				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
 				5D5245F5240AD0C7001CE63C /* Search in Rotated Sorted Array.swift in Sources */,
@@ -217,6 +224,7 @@
 				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
+				5D681090241742890015E053 /* SearchSubstring.swift in Sources */,
 				5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
