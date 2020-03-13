@@ -1,4 +1,4 @@
 import Foundation
 
-Merge_Intervals.test()
+Sort_Colors.test()
 

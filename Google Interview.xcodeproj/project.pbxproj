@@ -37,6 +37,7 @@
 		5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26B23D13D4B0007E99E /* Next Permutation.swift */; };
 		5D681090241742890015E053 /* SearchSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68108F241742890015E053 /* SearchSubstring.swift */; };
 		5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6810912418B0A80015E053 /* Merge Intervals.swift */; };
+		5D681094241A0ECD0015E053 /* Sort Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D681093241A0ECD0015E053 /* Sort Colors.swift */; };
 		5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		5D53A26B23D13D4B0007E99E /* Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Next Permutation.swift"; sourceTree = "<group>"; };
 		5D68108F241742890015E053 /* SearchSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSubstring.swift; sourceTree = "<group>"; };
 		5D6810912418B0A80015E053 /* Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Intervals.swift"; sourceTree = "<group>"; };
+		5D681093241A0ECD0015E053 /* Sort Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Colors.swift"; sourceTree = "<group>"; };
 		5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5D681093241A0ECD0015E053 /* Sort Colors.swift */,
 				5D5245D023FE5CDB001CE63C /* Intersection of Two Arrays II.swift */,
 				5D5245D223FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift */,
 				5D5245D423FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift */,
@@ -218,6 +221,7 @@
 				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
+				5D681094241A0ECD0015E053 /* Sort Colors.swift in Sources */,
 				5D5245F5240AD0C7001CE63C /* Search in Rotated Sorted Array.swift in Sources */,
 				5D5245F124077FCE001CE63C /* ReversedLinkedList.swift in Sources */,
 				5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */,
