@@ -31,6 +31,7 @@
 		5D5245F224077FCE001CE63C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E824077FCE001CE63C /* Fibonacci.swift */; };
 		5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E924077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift */; };
 		5D5245F5240AD0C7001CE63C /* Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245F4240AD0C5001CE63C /* Search in Rotated Sorted Array.swift */; };
+		5D53981024247D510040B208 /* Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53980F24247D510040B208 /* Letter Combinations of a Phone Number.swift */; };
 		5D53A26123D0C68B0007E99E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26023D0C68B0007E99E /* main.swift */; };
 		5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */; };
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
@@ -41,6 +42,9 @@
 		5D681096241EDC3A0015E053 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D681095241EDC380015E053 /* Best Time to Buy and Sell Stock.swift */; };
 		5D681098241F1A900015E053 /* Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D681097241F1A900015E053 /* Maximum Subarray.swift */; };
 		5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */; };
+		5D8CC1D224283ED40030FBFF /* Search a 2D Matrix II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */; };
+		5D8CC1D5242B05970030FBFF /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D3242B05970030FBFF /* ValidateBST.swift */; };
+		5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D4242B05970030FBFF /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +85,7 @@
 		5D5245E824077FCE001CE63C /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		5D5245E924077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "No17.letter-combinations-of-a-phone-number.swift"; sourceTree = "<group>"; };
 		5D5245F4240AD0C5001CE63C /* Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
+		5D53980F24247D510040B208 /* Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
 		5D53A25D23D0C68B0007E99E /* Google Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Interview"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53A26023D0C68B0007E99E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5D53A26723D0C69D0007E99E /* Unique Email Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Email Addresses.swift"; sourceTree = "<group>"; };
@@ -92,6 +97,9 @@
 		5D681095241EDC380015E053 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		5D681097241F1A900015E053 /* Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Subarray.swift"; sourceTree = "<group>"; };
 		5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
+		5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search a 2D Matrix II.swift"; sourceTree = "<group>"; };
+		5D8CC1D3242B05970030FBFF /* ValidateBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
+		5D8CC1D4242B05970030FBFF /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5D8CC1D4242B05970030FBFF /* QuickSort.swift */,
+				5D8CC1D3242B05970030FBFF /* ValidateBST.swift */,
+				5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */,
 				5D681097241F1A900015E053 /* Maximum Subarray.swift */,
 				5D681095241EDC380015E053 /* Best Time to Buy and Sell Stock.swift */,
 				5D681093241A0ECD0015E053 /* Sort Colors.swift */,
@@ -159,6 +170,7 @@
 				5D5245F4240AD0C5001CE63C /* Search in Rotated Sorted Array.swift */,
 				5D68108F241742890015E053 /* SearchSubstring.swift */,
 				5D6810912418B0A80015E053 /* Merge Intervals.swift */,
+				5D53980F24247D510040B208 /* Letter Combinations of a Phone Number.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -227,12 +239,14 @@
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
 				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
+				5D53981024247D510040B208 /* Letter Combinations of a Phone Number.swift in Sources */,
 				5D681098241F1A900015E053 /* Maximum Subarray.swift in Sources */,
 				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
 				5D681094241A0ECD0015E053 /* Sort Colors.swift in Sources */,
 				5D5245F5240AD0C7001CE63C /* Search in Rotated Sorted Array.swift in Sources */,
 				5D5245F124077FCE001CE63C /* ReversedLinkedList.swift in Sources */,
 				5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */,
+				5D8CC1D5242B05970030FBFF /* ValidateBST.swift in Sources */,
 				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
@@ -248,12 +262,14 @@
 				5D5245D523FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */,
 				5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */,
+				5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */,
 				5D474D8E23F9C73D00182AF8 /* 3Sum.swift in Sources */,
 				5D5245D723FE6A9D001CE63C /* Plus One.swift in Sources */,
 				5D474D9023FA083C00182AF8 /* Move Zeroes.swift in Sources */,
 				5D5245F224077FCE001CE63C /* Fibonacci.swift in Sources */,
 				5D6DB25E23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift in Sources */,
 				5D53A26123D0C68B0007E99E /* main.swift in Sources */,
+				5D8CC1D224283ED40030FBFF /* Search a 2D Matrix II.swift in Sources */,
 				5D5245EB24077FCE001CE63C /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
