@@ -45,6 +45,9 @@
 		5D8CC1D224283ED40030FBFF /* Search a 2D Matrix II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */; };
 		5D8CC1D5242B05970030FBFF /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D3242B05970030FBFF /* ValidateBST.swift */; };
 		5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D4242B05970030FBFF /* QuickSort.swift */; };
+		5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */; };
+		5D8CC1DA24313ED30030FBFF /* Robot Room Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */; };
+		5D8CC1DC243440DD0030FBFF /* Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +103,9 @@
 		5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search a 2D Matrix II.swift"; sourceTree = "<group>"; };
 		5D8CC1D3242B05970030FBFF /* ValidateBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		5D8CC1D4242B05970030FBFF /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N Queens II.swift"; sourceTree = "<group>"; };
+		5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Robot Room Cleaner.swift"; sourceTree = "<group>"; };
+		5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sudoku Solver.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +138,16 @@
 		5D53A25F23D0C68B0007E99E /* Google Interview */ = {
 			isa = PBXGroup;
 			children = (
+				5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */,
 				5D53A26023D0C68B0007E99E /* main.swift */,
 				5D8CC1D4242B05970030FBFF /* QuickSort.swift */,
+				5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */,
 				5D8CC1D3242B05970030FBFF /* ValidateBST.swift */,
 				5D8CC1D124283ED40030FBFF /* Search a 2D Matrix II.swift */,
 				5D681097241F1A900015E053 /* Maximum Subarray.swift */,
 				5D681095241EDC380015E053 /* Best Time to Buy and Sell Stock.swift */,
 				5D681093241A0ECD0015E053 /* Sort Colors.swift */,
+				5D474D8923F6683B00182AF8 /* atoi.swift */,
 				5D5245D023FE5CDB001CE63C /* Intersection of Two Arrays II.swift */,
 				5D5245D223FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift */,
 				5D5245D423FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift */,
@@ -148,7 +157,6 @@
 				5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */,
 				5D53A26B23D13D4B0007E99E /* Next Permutation.swift */,
 				5D6DB25D23F5B514002CBEE6 /* Longest Substring Without Repeating Characters.swift */,
-				5D474D8923F6683B00182AF8 /* atoi.swift */,
 				5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */,
 				5D474D8D23F9C73D00182AF8 /* 3Sum.swift */,
 				5D474D8F23FA083C00182AF8 /* Move Zeroes.swift */,
@@ -171,6 +179,7 @@
 				5D68108F241742890015E053 /* SearchSubstring.swift */,
 				5D6810912418B0A80015E053 /* Merge Intervals.swift */,
 				5D53980F24247D510040B208 /* Letter Combinations of a Phone Number.swift */,
+				5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D53981024247D510040B208 /* Letter Combinations of a Phone Number.swift in Sources */,
 				5D681098241F1A900015E053 /* Maximum Subarray.swift in Sources */,
+				5D8CC1DA24313ED30030FBFF /* Robot Room Cleaner.swift in Sources */,
 				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
 				5D681094241A0ECD0015E053 /* Sort Colors.swift in Sources */,
 				5D5245F5240AD0C7001CE63C /* Search in Rotated Sorted Array.swift in Sources */,
@@ -254,6 +264,7 @@
 				5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
+				5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
@@ -271,6 +282,7 @@
 				5D53A26123D0C68B0007E99E /* main.swift in Sources */,
 				5D8CC1D224283ED40030FBFF /* Search a 2D Matrix II.swift in Sources */,
 				5D5245EB24077FCE001CE63C /* BFS.swift in Sources */,
+				5D8CC1DC243440DD0030FBFF /* Sudoku Solver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
