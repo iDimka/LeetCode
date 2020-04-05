@@ -8,6 +8,7 @@
 
 import Cocoa
 
+/*
 class Sudoku_Solver: NSObject {
   typealias Board = [[Character]]
   
@@ -52,3 +53,5 @@ class Sudoku_Solver: NSObject {
     return board.flatMap { $0 }.contains(".")
   }
 }
+
+*/

@@ -48,6 +48,7 @@
 		5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */; };
 		5D8CC1DA24313ED30030FBFF /* Robot Room Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */; };
 		5D8CC1DC243440DD0030FBFF /* Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */; };
+		5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BC24395A6F00B9BE57 /* Same Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +107,7 @@
 		5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N Queens II.swift"; sourceTree = "<group>"; };
 		5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Robot Room Cleaner.swift"; sourceTree = "<group>"; };
 		5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sudoku Solver.swift"; sourceTree = "<group>"; };
+		5DB810BC24395A6F00B9BE57 /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				5D6810912418B0A80015E053 /* Merge Intervals.swift */,
 				5D53980F24247D510040B208 /* Letter Combinations of a Phone Number.swift */,
 				5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */,
+				5DB810BC24395A6F00B9BE57 /* Same Tree.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */,
 				5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */,
 				5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */,
+				5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */,
 				5D474D8E23F9C73D00182AF8 /* 3Sum.swift in Sources */,
 				5D5245D723FE6A9D001CE63C /* Plus One.swift in Sources */,
 				5D474D9023FA083C00182AF8 /* Move Zeroes.swift in Sources */,
