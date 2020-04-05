@@ -50,6 +50,7 @@
 		5D8CC1DC243440DD0030FBFF /* Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */; };
 		5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BC24395A6F00B9BE57 /* Same Tree.swift */; };
 		5DB810BF2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */; };
+		5DB810C1243A575700B9BE57 /* Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,7 @@
 		5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sudoku Solver.swift"; sourceTree = "<group>"; };
 		5DB810BC24395A6F00B9BE57 /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
 		5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
+		5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */,
 				5DB810BC24395A6F00B9BE57 /* Same Tree.swift */,
 				5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */,
+				5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				5D5245D523FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				5DB810BF2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift in Sources */,
 				5D53A26823D0C69D0007E99E /* Unique Email Addresses.swift in Sources */,
+				5DB810C1243A575700B9BE57 /* Binary Tree Level Order Traversal.swift in Sources */,
 				5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */,
 				5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */,
 				5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */,
