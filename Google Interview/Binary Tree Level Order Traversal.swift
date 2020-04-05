@@ -25,4 +25,25 @@ class Binary_Tree_Level_Order_Traversal: NSObject {
     
     return result
   }
+  
+  func levelOrderRecursive(_ root: TreeNode?) -> [[Int]] {
+    func traverse(_ node: TreeNode?, level: Int, cache: inout [[Int]]) {
+      guard let node = node else { return }
+      if cache.count == level {
+        cache.append([])
+      }
+      
+      cache[level].append(node.val)
+      
+      if let left = node.left {
+        traverse(left, level: level + 1, cache: &cache)
+      }
+      if let right = node.right {
+        traverse(right, level: level + 1, cache: &cache)
+      }
+    }
+    var result: [[Int]] = []
+    traverse(root, level: 0, cache: &result)
+    return result
+  }
 }
