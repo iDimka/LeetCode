@@ -51,6 +51,8 @@
 		5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BC24395A6F00B9BE57 /* Same Tree.swift */; };
 		5DB810BF2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */; };
 		5DB810C1243A575700B9BE57 /* Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */; };
+		5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */; };
+		5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C42443BDE000B9BE57 /* Reoder List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,6 +114,8 @@
 		5DB810BC24395A6F00B9BE57 /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
 		5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
 		5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
+		5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
+		5DB810C42443BDE000B9BE57 /* Reoder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reoder List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +148,9 @@
 		5D53A25F23D0C68B0007E99E /* Google Interview */ = {
 			isa = PBXGroup;
 			children = (
-				5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */,
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5DB810C42443BDE000B9BE57 /* Reoder List.swift */,
+				5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */,
 				5D8CC1D4242B05970030FBFF /* QuickSort.swift */,
 				5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */,
 				5D8CC1D3242B05970030FBFF /* ValidateBST.swift */,
@@ -189,6 +194,7 @@
 				5DB810BC24395A6F00B9BE57 /* Same Tree.swift */,
 				5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */,
 				5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */,
+				5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -270,12 +276,14 @@
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
 				5D681090241742890015E053 /* SearchSubstring.swift in Sources */,
+				5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */,
 				5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
 				5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
+				5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
 				5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */,
 				5D5245EC24077FCE001CE63C /* Pascal's Triangle.swift in Sources */,
