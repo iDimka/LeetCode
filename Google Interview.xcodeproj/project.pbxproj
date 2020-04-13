@@ -53,6 +53,7 @@
 		5DB810C1243A575700B9BE57 /* Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */; };
 		5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */; };
 		5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C42443BDE000B9BE57 /* Reoder List.swift */; };
+		5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +117,7 @@
 		5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		5DB810C42443BDE000B9BE57 /* Reoder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reoder List.swift"; sourceTree = "<group>"; };
+		5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy List with Random Pointer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */,
 				5DB810C42443BDE000B9BE57 /* Reoder List.swift */,
 				5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */,
 				5D8CC1D4242B05970030FBFF /* QuickSort.swift */,
@@ -281,6 +284,7 @@
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
 				5D474D9423FA289400182AF8 /* Rotate Image.swift in Sources */,
 				5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */,
+				5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
 				5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */,
