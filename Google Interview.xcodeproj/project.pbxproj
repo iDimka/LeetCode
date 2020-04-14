@@ -54,6 +54,8 @@
 		5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */; };
 		5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C42443BDE000B9BE57 /* Reoder List.swift */; };
 		5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */; };
+		5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */; };
+		5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810CA244574E900B9BE57 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +120,8 @@
 		5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		5DB810C42443BDE000B9BE57 /* Reoder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reoder List.swift"; sourceTree = "<group>"; };
 		5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy List with Random Pointer.swift"; sourceTree = "<group>"; };
+		5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
+		5DB810CA244574E900B9BE57 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5DB810CA244574E900B9BE57 /* TreeNode.swift */,
 				5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */,
 				5DB810C42443BDE000B9BE57 /* Reoder List.swift */,
 				5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */,
@@ -198,6 +203,7 @@
 				5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */,
 				5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */,
 				5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */,
+				5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D53981024247D510040B208 /* Letter Combinations of a Phone Number.swift in Sources */,
+				5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */,
 				5D681098241F1A900015E053 /* Maximum Subarray.swift in Sources */,
 				5D8CC1DA24313ED30030FBFF /* Robot Room Cleaner.swift in Sources */,
 				5D5245ED24077FCE001CE63C /* MaximumDepthOfBinaryTree .swift in Sources */,
@@ -279,6 +286,7 @@
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
 				5D681090241742890015E053 /* SearchSubstring.swift in Sources */,
+				5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */,
 				5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */,
 				5D5245F324077FCE001CE63C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				5D5245D123FE5CDB001CE63C /* Intersection of Two Arrays II.swift in Sources */,
