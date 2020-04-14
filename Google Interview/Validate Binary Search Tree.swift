@@ -40,6 +40,7 @@ class Validate_Binary_Search_Tree: NSObject {
         isValidBSTRecursive(root.right, min: &min, max: &max)
   }
   
+  // Uses inorder traversal because each next node should have a bigger value. If not the tree is not valid.
   func isValidBST(_ root: TreeNode?) -> Bool {
     guard let root = root else { return true }
     
