@@ -9,35 +9,21 @@
 import Cocoa
 
 class Validate_Binary_Search_Tree: NSObject {
-  /// Doesn't work properly
-  func isValidBSTRecursive(_ root: TreeNode?, min: inout [Int], max: inout [Int]) -> Bool {
+  
+  func isValidBSTRecursive(_ root: TreeNode?, min: Int? = nil, max: Int? = nil) -> Bool {
     guard let root = root else { return true }
     
-    if root.left?.val ?? Int.min >= root.val {
+    if let min = min, root.val <= min {
       return false
     }
-    if root.right?.val ?? Int.max <= root.val {
+    if let max = max, root.val >= max {
       return false
-    }
-    
-    if let left = root.left, let min = min.last, min <= left.val {
-      return false
-    }
-    if let right = root.right, let max = max.last, max >= right.val {
-      return false
-    }
-    
-    if let left = root.left?.val {
-      min.append(left)
-    }
-    if let right = root.right?.val {
-      max.append(right)
     }
     
     return
-      isValidBSTRecursive(root.left, min: &min, max: &max)
+      isValidBSTRecursive(root.left, min: min, max: root.val)
         &&
-        isValidBSTRecursive(root.right, min: &min, max: &max)
+      isValidBSTRecursive(root.right, min: root.val, max: max)
   }
   
   // Uses inorder traversal because each next node should have a bigger value. If not the tree is not valid.
@@ -70,11 +56,11 @@ class Validate_Binary_Search_Tree: NSObject {
   }
   
   class func test() {
-    let input: [Int?] = [2,1,3]
+    let input: [Int?] = [1,1]
     let tree = input.tree()
     print(tree ?? "")
     
-    print(Validate_Binary_Search_Tree().isValidBST(tree))
+    print(Validate_Binary_Search_Tree().isValidBSTRecursive(tree))
   }
 }
 
