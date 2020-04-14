@@ -56,9 +56,12 @@ class Validate_Binary_Search_Tree: NSObject {
   }
   
   class func test() {
-    let input: [Int?] = [1,1]
+    let input: [Int?] = [1,2,3,4,5,6,7]
+    
     let tree = input.tree()
     print(tree ?? "")
+    
+    TreeNode.DFSIteractive(tree!, visit: { print($0) })    
     
     print(Validate_Binary_Search_Tree().isValidBSTRecursive(tree))
   }

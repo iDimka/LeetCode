@@ -9,6 +9,9 @@
 import Cocoa
 
 public class TreeNode: CustomStringConvertible {
+  enum TraverseOrder {
+    case preorder, inorder, postorder
+  }
   public var val: Int
   public var left: TreeNode?
   public var right: TreeNode?
@@ -44,6 +47,39 @@ public class TreeNode: CustomStringConvertible {
       node.right.flatMap { stack.append($0) }
       
       print(node.val)
+    }
+  }
+  
+  class func BFSIteractive(_ root: TreeNode?, visit: (TreeNode)->Void) {
+    guard let root = root else { return }
+    
+    var stack: [TreeNode] = [root]
+    
+    while stack.isEmpty == false {
+      let node = stack.removeFirst()
+      
+      visit(node)
+      
+      node.left.flatMap { stack.append($0) }
+      node.right.flatMap { stack.append($0) }
+    }
+  }
+  
+  class func DFSIteractive(_ root: TreeNode, visit: (TreeNode)->Void) {
+    var stack: [TreeNode] = []
+    var current: TreeNode? = root
+    
+    while current != nil || stack.isEmpty == false {
+      while let node = current {
+        stack.append(node)
+        current = node.left
+      }
+      
+      guard stack.isEmpty == false else { continue }
+      
+      let node = stack.removeLast()
+      visit(node)
+      current = node.right
     }
   }
   
