@@ -56,6 +56,7 @@
 		5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */; };
 		5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */; };
 		5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810CA244574E900B9BE57 /* TreeNode.swift */; };
+		5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,6 +123,7 @@
 		5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy List with Random Pointer.swift"; sourceTree = "<group>"; };
 		5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		5DB810CA244574E900B9BE57 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */,
 				5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */,
 				5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */,
+				5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */,
 				5D5245EE24077FCE001CE63C /* Merge Two Sorted Lists.swift in Sources */,
+				5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */,
 				5D681096241EDC3A0015E053 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
 				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
