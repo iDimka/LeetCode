@@ -10,7 +10,7 @@ import Cocoa
 
 class Flatten_Binary_Tree_to_Linked_List: NSObject {
   func flatten(_ root: TreeNode?) {
-    let _ = flatten(root)
+    let _ = _flatten(root)
   }
   
   func _flatten(_ node: TreeNode?) -> TreeNode? {
