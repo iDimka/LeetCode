@@ -9,25 +9,25 @@
 import Cocoa
 
 class Max_Consecutive_Ones: NSObject {
-      func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
-          guard nums.count > 0 else { return 0 }
-          
-          var result = 0
-          var lastOne = false
-          var currentCycle = 0
-          
-          for num in nums {
-              if num == 1 {
-                  currentCycle += 1
-                  result = max(result, currentCycle)
-              } else {
-                  lastOne = false
-                  currentCycle = 0
-              }
-          }
-          
-          return result
+  func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
+    guard nums.count > 0 else { return 0 }
+    
+    var result = 0
+    var lastOne = false
+    var currentCycle = 0
+    
+    for num in nums {
+      if num == 1 {
+        currentCycle += 1
+        result = max(result, currentCycle)
+      } else {
+        lastOne = false
+        currentCycle = 0
       }
+    }
+    
+    return result
+  }
   
   class func test() {
     let solution = Max_Consecutive_Ones()

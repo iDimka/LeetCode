@@ -48,6 +48,7 @@
 		5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */; };
 		5D8CC1DA24313ED30030FBFF /* Robot Room Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */; };
 		5D8CC1DC243440DD0030FBFF /* Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */; };
+		5D9F86B0245A9366002DE56C /* Flatten Binary Tree to Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F86AF245A9366002DE56C /* Flatten Binary Tree to Linked List.swift */; };
 		5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BC24395A6F00B9BE57 /* Same Tree.swift */; };
 		5DB810BF2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */; };
 		5DB810C1243A575700B9BE57 /* Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */; };
@@ -115,6 +116,7 @@
 		5D8CC1D7242DCAFC0030FBFF /* N Queens II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N Queens II.swift"; sourceTree = "<group>"; };
 		5D8CC1D924313ED30030FBFF /* Robot Room Cleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Robot Room Cleaner.swift"; sourceTree = "<group>"; };
 		5D8CC1DB243440DD0030FBFF /* Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sudoku Solver.swift"; sourceTree = "<group>"; };
+		5D9F86AF245A9366002DE56C /* Flatten Binary Tree to Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flatten Binary Tree to Linked List.swift"; sourceTree = "<group>"; };
 		5DB810BC24395A6F00B9BE57 /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
 		5DB810BE2439A89D00B9BE57 /* Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
 		5DB810C0243A575700B9BE57 /* Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				5DB810C2243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift */,
 				5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */,
 				5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */,
+				5D9F86AF245A9366002DE56C /* Flatten Binary Tree to Linked List.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
+				5D9F86B0245A9366002DE56C /* Flatten Binary Tree to Linked List.swift in Sources */,
 				5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
 				5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */,
