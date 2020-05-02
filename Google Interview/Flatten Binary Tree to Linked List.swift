@@ -14,8 +14,12 @@ class Flatten_Binary_Tree_to_Linked_List: NSObject {
   }
   
   func _flatten(_ node: TreeNode?) -> TreeNode? {
-    guard let node = node else { return nil }
-    guard node.left != nil && node.right != nil else { return node }
+    guard let node = node else {
+      return nil
+    }
+    guard node.left != nil && node.right != nil else { 
+      return node
+    }
     
     let leftTail = _flatten(node.left)
     let rightTail = _flatten(node.right)

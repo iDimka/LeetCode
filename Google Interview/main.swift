@@ -1,4 +1,4 @@
 import Foundation
 
-Flatten_Binary_Tree_to_Linked_List.test()
+Cheapest_Flights_Within_K_Stops_787.test()
 
