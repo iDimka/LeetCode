@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D39DDBE24627FB3005E550E /* Pancake Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39DDBD24627FB3005E550E /* Pancake Sorting.swift */; };
+		5D39DDBF246512CA005E550E /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5245E024077FCD001CE63C /* BST.swift */; };
+		5D39DDC12465251F005E550E /* Binary Tree Vertical Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39DDC02465251F005E550E /* Binary Tree Vertical Order Traversal.swift */; };
 		5D474D8A23F6683B00182AF8 /* atoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D8923F6683B00182AF8 /* atoi.swift */; };
 		5D474D8C23F6F5AC00182AF8 /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */; };
 		5D474D8E23F9C73D00182AF8 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D474D8D23F9C73D00182AF8 /* 3Sum.swift */; };
@@ -60,6 +62,7 @@
 		5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */; };
 		5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */; };
 		5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810CA244574E900B9BE57 /* TreeNode.swift */; };
+		5DC7FCF9246743A600C46765 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCF8246743A600C46765 /* Permutations.swift */; };
 		5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +80,7 @@
 
 /* Begin PBXFileReference section */
 		5D39DDBD24627FB3005E550E /* Pancake Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pancake Sorting.swift"; sourceTree = "<group>"; };
+		5D39DDC02465251F005E550E /* Binary Tree Vertical Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Vertical Order Traversal.swift"; sourceTree = "<group>"; };
 		5D474D8923F6683B00182AF8 /* atoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atoi.swift; sourceTree = "<group>"; };
 		5D474D8B23F6F5AC00182AF8 /* 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		5D474D8D23F9C73D00182AF8 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 		5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy List with Random Pointer.swift"; sourceTree = "<group>"; };
 		5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		5DB810CA244574E900B9BE57 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		5DC7FCF8246743A600C46765 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5DC7FCF8246743A600C46765 /* Permutations.swift */,
 				5DB810CA244574E900B9BE57 /* TreeNode.swift */,
 				5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */,
 				5DB810C42443BDE000B9BE57 /* Reoder List.swift */,
@@ -219,6 +225,7 @@
 				5D9F86B1245CEB86002DE56C /* 787. Cheapest Flights Within K Stops.swift */,
 				5D9F86B3245D350C002DE56C /* Binary Tree Maximum Path Sum.swift */,
 				5D39DDBD24627FB3005E550E /* Pancake Sorting.swift */,
+				5D39DDC02465251F005E550E /* Binary Tree Vertical Order Traversal.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -301,6 +308,7 @@
 				5D8CC1D5242B05970030FBFF /* ValidateBST.swift in Sources */,
 				5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */,
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
+				5D39DDBF246512CA005E550E /* BST.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
 				5D681090241742890015E053 /* SearchSubstring.swift in Sources */,
 				5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */,
@@ -316,6 +324,7 @@
 				5D9F86B0245A9366002DE56C /* Flatten Binary Tree to Linked List.swift in Sources */,
 				5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
+				5D39DDC12465251F005E550E /* Binary Tree Vertical Order Traversal.swift in Sources */,
 				5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */,
 				5D5245EC24077FCE001CE63C /* Pascal's Triangle.swift in Sources */,
 				5D5245D523FE6304001CE63C /* Best Time to Buy and Sell Stock II.swift in Sources */,
@@ -326,6 +335,7 @@
 				5D5245D923FF9A5A001CE63C /* Reverse Integer.swift in Sources */,
 				5D8CC1D6242B05970030FBFF /* QuickSort.swift in Sources */,
 				5DB810BD24395A6F00B9BE57 /* Same Tree.swift in Sources */,
+				5DC7FCF9246743A600C46765 /* Permutations.swift in Sources */,
 				5D474D8E23F9C73D00182AF8 /* 3Sum.swift in Sources */,
 				5D5245D723FE6A9D001CE63C /* Plus One.swift in Sources */,
 				5D474D9023FA083C00182AF8 /* Move Zeroes.swift in Sources */,

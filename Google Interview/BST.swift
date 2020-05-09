@@ -103,6 +103,22 @@ enum BinaryTree<T: Comparable> : CustomStringConvertible {
         
         return min(left.minHeight(), right.minHeight()) + 1
     }
+  
+  func maxWidth() -> Int {
+    func maxWidth(_ root: BinaryTree, level: Int) -> Int {
+      guard case let .node(left, _, right) = root else { return 0 }
+      guard level > 1 else { return 1 }
+      
+      return maxWidth(left, level: level - 1) + maxWidth(right, level: level - 1)
+      
+    }
+    var maxW = 0
+    for ind in 1..<self.maxHeight() {
+      maxW = max(maxW, maxWidth(self, level: ind))
+    }
+    
+    return maxW
+  }
     
     func bfs(value: T, /*visited: inout [BinaryTree], processed: inout [BinaryTree],*/ completion: @escaping (BinaryTree) -> Void) {
         var queue = Queue<BinaryTree>([self])
@@ -141,7 +157,7 @@ enum BinaryTree<T: Comparable> : CustomStringConvertible {
 
 
 
-func testBST() {
+  func testBST() {
    var tree: BinaryTree<Int> = .empty
     tree.insert(newValue: 7)
     tree.insert(newValue: 10)
@@ -156,9 +172,11 @@ func testBST() {
     tree.bfs(value: 1, /*visited: &visited, processed: &processed,*/ completion: { value in
         print(value)
     })
+  
     
     tree.traverseInOrder { print($0) }
     print(tree.description)
     print(tree.maxHeight())
     print(tree.minHeight())
+    print("max width: \(tree.maxWidth())")
 }
