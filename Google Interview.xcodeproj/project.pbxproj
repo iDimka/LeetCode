@@ -63,6 +63,7 @@
 		5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */; };
 		5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB810CA244574E900B9BE57 /* TreeNode.swift */; };
 		5DC7FCF9246743A600C46765 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCF8246743A600C46765 /* Permutations.swift */; };
+		5DC7FCFB246896CA00C46765 /* Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */; };
 		5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +137,7 @@
 		5DB810C824456B5300B9BE57 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		5DB810CA244574E900B9BE57 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		5DC7FCF8246743A600C46765 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */,
 				5DC7FCF8246743A600C46765 /* Permutations.swift */,
 				5DB810CA244574E900B9BE57 /* TreeNode.swift */,
 				5DB810C62443E8FC00B9BE57 /* Copy List with Random Pointer.swift */,
@@ -323,6 +326,7 @@
 				5D39DDBE24627FB3005E550E /* Pancake Sorting.swift in Sources */,
 				5D9F86B0245A9366002DE56C /* Flatten Binary Tree to Linked List.swift in Sources */,
 				5DB810C3243AC2FB00B9BE57 /* Largest Rectangle in Histogram.swift in Sources */,
+				5DC7FCFB246896CA00C46765 /* Regular Expression Matching.swift in Sources */,
 				5D5245DD240368F6001CE63C /* Add Two Numbers.swift in Sources */,
 				5D39DDC12465251F005E550E /* Binary Tree Vertical Order Traversal.swift in Sources */,
 				5D5245F024077FCE001CE63C /* Pow(x, n).swift in Sources */,
