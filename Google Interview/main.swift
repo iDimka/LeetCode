@@ -1,5 +1,5 @@
 import Foundation
 
-Regular_Expression_Matching.test()
+Permutations.test()
 //testBST()
 

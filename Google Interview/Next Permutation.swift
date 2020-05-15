@@ -52,10 +52,7 @@ final class NextPermutationSolution {
         var results = [[Int]]()
         
         for num in nums {
-            guard results.count != 0 else {
-                results = [[num]]
-                continue
-            }
+          guard results.count != 0 else { results = [[num]]; continue }
             
             results = results.flatMap { (result) in
                 (0...result.count).compactMap { (i) in

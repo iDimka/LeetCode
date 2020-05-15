@@ -44,10 +44,28 @@ class Permutations: NSObject {
     }
   }
   
+  func permuteUnique(_ nums: [Int]) -> [[Int]] {
+    
+    var result: Set<[Int]> = []
+    var nums = nums
+    permuteUnique(&nums, start: 0, result: &result)
+    
+    return Array(result)
+  }
+  
+  private func permuteUnique(_ nums: inout [Int], start: Int, result: inout Set<[Int]>) {
+    guard nums.count > start else { result.insert(nums); return }
+    
+    for index in start..<nums.count {
+      nums.swapAt(index, start)
+      permuteUnique(&nums, start: start + 1, result: &result)
+      nums.swapAt(start, index)
+    }
+  }
   
   class func test() {
     let input = [1, 2, 3]
     
-    print(Permutations().permute(input))
+    print(Permutations().permute(input).map { $0.map { String($0) }.joined(separator: "") })
   }
 }
