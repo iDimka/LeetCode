@@ -66,6 +66,7 @@
 		5DC7FCFB246896CA00C46765 /* Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */; };
 		5DC7FCFD246D188100C46765 /* Multiply Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCFC246D188100C46765 /* Multiply Strings.swift */; };
 		5DC7FCFF246E5D1200C46765 /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FCFE246E5D1200C46765 /* Roman to Integer.swift */; };
+		5DC7FD01246E632C00C46765 /* Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FD00246E632C00C46765 /* Product of Array Except Self.swift */; };
 		5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		5DC7FCFC246D188100C46765 /* Multiply Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multiply Strings.swift"; sourceTree = "<group>"; };
 		5DC7FCFE246E5D1200C46765 /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
+		5DC7FD00246E632C00C46765 /* Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product of Array Except Self.swift"; sourceTree = "<group>"; };
 		5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -235,6 +237,7 @@
 				5D39DDBD24627FB3005E550E /* Pancake Sorting.swift */,
 				5D39DDC02465251F005E550E /* Binary Tree Vertical Order Traversal.swift */,
 				5DC7FCFE246E5D1200C46765 /* Roman to Integer.swift */,
+				5DC7FD00246E632C00C46765 /* Product of Array Except Self.swift */,
 			);
 			path = "Google Interview";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				5D8CC1D8242DCAFC0030FBFF /* N Queens II.swift in Sources */,
 				5DB810C72443E8FC00B9BE57 /* Copy List with Random Pointer.swift in Sources */,
 				5D5245DF240779E2001CE63C /* Diameter of Binary Tree.swift in Sources */,
+				5DC7FD01246E632C00C46765 /* Product of Array Except Self.swift in Sources */,
 				5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */,
 				5D39DDBE24627FB3005E550E /* Pancake Sorting.swift in Sources */,
 				5D9F86B0245A9366002DE56C /* Flatten Binary Tree to Linked List.swift in Sources */,

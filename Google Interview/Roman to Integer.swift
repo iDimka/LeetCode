@@ -66,5 +66,48 @@ import Cocoa
  * If C comes before D or M, subtract 100 eg: CD = 400 and CM = 900
  */
 class Roman_to_Integer: NSObject {
-
+  class Solution {
+      let mapping = [
+  "I":             1,
+  "V":             5,
+  "X":             10,
+  "L":             50,
+  "C":             100,
+  "D":             500,
+  "M":             1000,
+      ]
+      
+      func romanToInt(_ s: String) -> Int {
+          var index = 0
+          var sum = 0
+          
+          while index < s.count {
+              let currentString = s[s.index(s.startIndex, offsetBy: index)].stringValue
+              guard let current = mapping[currentString] else { continue }
+              
+              if index < s.count - 1 {
+                  let nextString = s[s.index(s.startIndex, offsetBy: index + 1)].stringValue
+                  guard let next = mapping[nextString] else { continue }
+                  
+                  if next > current {
+                      sum -= current
+                      sum += next
+                      index += 2
+                  } else {
+                      sum += current
+                      index += 1
+                  }
+              } else {
+                  sum += current
+                  index += 1
+              }
+          }
+          
+          return sum
+      }
+  }
 }
+
+extension Substring {
+     var stringValue: String { return String(self) }
+ }
