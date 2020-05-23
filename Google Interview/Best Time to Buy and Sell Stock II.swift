@@ -9,6 +9,20 @@
 import Cocoa
 
 class Best_Time_to_Buy_and_Sell_Stock_II: NSObject {
+  func maxProfitBuyOnes(_ prices: [Int]) -> Int {
+      var minPrice = Int.max
+      var maxProfit = 0
+      
+      for price in prices {
+          if price < minPrice {
+              minPrice = price
+          } else if price - minPrice > maxProfit {
+              maxProfit = price - minPrice
+          }
+      }
+      
+      return maxProfit
+  }
     class func maxProfit(_ prices: [Int]) -> Int {
         guard prices.count > 0 else { return prices.first ?? 0 }
         

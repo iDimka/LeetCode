@@ -1,5 +1,5 @@
 import Foundation
 
-Permutations.test()
+Longest_Palindromic_Substring.test()
 //testBST()
 
