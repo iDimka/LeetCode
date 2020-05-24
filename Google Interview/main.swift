@@ -1,5 +1,5 @@
 import Foundation
 
-Longest_Palindromic_Substring.test()
+_3SumSolution.test()
 //testBST()
 

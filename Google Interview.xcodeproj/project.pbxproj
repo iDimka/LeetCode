@@ -40,6 +40,7 @@
 		5D53A26A23D0F0E70007E99E /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */; };
 		5D53A26C23D13D4B0007E99E /* Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A26B23D13D4B0007E99E /* Next Permutation.swift */; };
 		5D5D353224799173000BC8D8 /* Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5D353124799173000BC8D8 /* Longest Palindromic Substring.swift */; };
+		5D5D3534247AFFDC000BC8D8 /* Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5D3533247AFFDC000BC8D8 /* Add Binary.swift */; };
 		5D681090241742890015E053 /* SearchSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68108F241742890015E053 /* SearchSubstring.swift */; };
 		5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6810912418B0A80015E053 /* Merge Intervals.swift */; };
 		5D681094241A0ECD0015E053 /* Sort Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D681093241A0ECD0015E053 /* Sort Colors.swift */; };
@@ -118,6 +119,7 @@
 		5D53A26923D0F0E70007E99E /* Fruit Into Baskets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit Into Baskets.swift"; sourceTree = "<group>"; };
 		5D53A26B23D13D4B0007E99E /* Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Next Permutation.swift"; sourceTree = "<group>"; };
 		5D5D353124799173000BC8D8 /* Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
+		5D5D3533247AFFDC000BC8D8 /* Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add Binary.swift"; sourceTree = "<group>"; };
 		5D68108F241742890015E053 /* SearchSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSubstring.swift; sourceTree = "<group>"; };
 		5D6810912418B0A80015E053 /* Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Intervals.swift"; sourceTree = "<group>"; };
 		5D681093241A0ECD0015E053 /* Sort Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Colors.swift"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				5D53A26023D0C68B0007E99E /* main.swift */,
+				5D5D3533247AFFDC000BC8D8 /* Add Binary.swift */,
 				5DC7FCFC246D188100C46765 /* Multiply Strings.swift */,
 				5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */,
 				5DC7FCF8246743A600C46765 /* Permutations.swift */,
@@ -325,6 +328,7 @@
 				5D5245DB24035A77001CE63C /* SortStack.swift in Sources */,
 				5D39DDBF246512CA005E550E /* BST.swift in Sources */,
 				5D5245EF24077FCE001CE63C /* K-th Symbol in Grammar .swift in Sources */,
+				5D5D3534247AFFDC000BC8D8 /* Add Binary.swift in Sources */,
 				5D681090241742890015E053 /* SearchSubstring.swift in Sources */,
 				5DB810C924456B5300B9BE57 /* Validate Binary Search Tree.swift in Sources */,
 				5DB810C52443BDE000B9BE57 /* Reoder List.swift in Sources */,
