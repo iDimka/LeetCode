@@ -1,5 +1,5 @@
 import Foundation
 
-_3SumSolution.test()
+Subsets.test()
 //testBST()
 

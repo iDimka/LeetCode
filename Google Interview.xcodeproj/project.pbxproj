@@ -71,6 +71,7 @@
 		5DC7FD01246E632C00C46765 /* Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7FD00246E632C00C46765 /* Product of Array Except Self.swift */; };
 		5DED75982455451E008B4B27 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */; };
 		5DF39023247E2C2400336CB4 /* Arithmetic Slices 413.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF39022247E2C2400336CB4 /* Arithmetic Slices 413.swift */; };
+		5DF39025247E35CE00336CB4 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF39024247E35CE00336CB4 /* Subsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,7 @@
 		5DC7FD00246E632C00C46765 /* Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product of Array Except Self.swift"; sourceTree = "<group>"; };
 		5DED75972455451E008B4B27 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 		5DF39022247E2C2400336CB4 /* Arithmetic Slices 413.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arithmetic Slices 413.swift"; sourceTree = "<group>"; };
+		5DF39024247E35CE00336CB4 /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				5D53A26023D0C68B0007E99E /* main.swift */,
 				5D5D3533247AFFDC000BC8D8 /* Add Binary.swift */,
 				5DF39022247E2C2400336CB4 /* Arithmetic Slices 413.swift */,
+				5DF39024247E35CE00336CB4 /* Subsets.swift */,
 				5DC7FCFC246D188100C46765 /* Multiply Strings.swift */,
 				5DC7FCFA246896C900C46765 /* Regular Expression Matching.swift */,
 				5DC7FCF8246743A600C46765 /* Permutations.swift */,
@@ -315,6 +318,7 @@
 				5D681096241EDC3A0015E053 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				5D474D9223FA0C4600182AF8 /* Rotate Array.swift in Sources */,
 				5D6810922418B0A80015E053 /* Merge Intervals.swift in Sources */,
+				5DF39025247E35CE00336CB4 /* Subsets.swift in Sources */,
 				5D5245D323FE5F5E001CE63C /* Remove Duplicates from Sorted Array.swift in Sources */,
 				5D53981024247D510040B208 /* Letter Combinations of a Phone Number.swift in Sources */,
 				5DB810CB244574E900B9BE57 /* TreeNode.swift in Sources */,
