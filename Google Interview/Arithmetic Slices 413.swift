@@ -68,7 +68,7 @@ class Arithmetic_Slices_413: NSObject {
     return ap
   }
   
-  func numberOfArithmeticSlicesIteractive(_ A: [Int]) -> Int {
+  func numberOfArithmeticSlicesDPIteractive(_ A: [Int]) -> Int {
     var dp = Array(repeating: 0, count: A.count)
     var sum = 0
     
@@ -84,5 +84,26 @@ class Arithmetic_Slices_413: NSObject {
     }
     
     return sum
+  }
+  func numberOfArithmeticSlicesDPIteractiveZeroSpace(_ A: [Int]) -> Int {
+      guard A.count > 2 else { return 0 }
+      
+      var dp = 0
+      var sum = 0
+      
+      for ind in 2..<A.count {
+          let first = A[ind - 2]
+          let second = A[ind - 1]
+          let third = A[ind]
+          
+          if second - third == first - second {
+              dp += 1
+              sum += dp
+          } else {
+              dp = 0
+          }
+      }
+      
+      return sum
   }
 }
