@@ -108,6 +108,6 @@ class Roman_to_Integer: NSObject {
   }
 }
 
-extension Substring {
-     var stringValue: String { return String(self) }
- }
+//extension Substring {
+//     var stringValue: String { return String(self) }
+// }

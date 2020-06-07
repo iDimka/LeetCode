@@ -84,7 +84,7 @@ class Regular_Expression_Matching: NSObject {
       print("\(sPosition)"); return sPosition >= s.count
     }
     
-    guard let sSymbol = s.charAt(sPosition), let pSymbol = p.charAt(pPosition) else { return false }
+    guard let sSymbol = s.charStringAt(sPosition), let pSymbol = p.charStringAt(pPosition) else { return false }
     
     let isMatchAt = s.isEmpty == false && (sSymbol == pSymbol || pSymbol == ".")
                                                           
@@ -93,7 +93,7 @@ class Regular_Expression_Matching: NSObject {
     }
     print("\(sSymbol) & \(pSymbol) = \(isMatchAt)")
     
-    if p.count > pPosition + 1, p.charAt(pPosition + 1) == "*" {
+    if p.count > pPosition + 1, p.charStringAt(pPosition + 1) == "*" {
       return
         isMatch(s, p, at: sPosition, and: pPosition + 2)
           ||
@@ -112,16 +112,16 @@ class Regular_Expression_Matching: NSObject {
 }
 
 extension String {
-  func charAt(_ position: Int) -> String? {
+  func charStringAt(_ position: Int) -> String? {
     guard position < count else { return nil }
-    
+
     return self[index(startIndex, offsetBy: position)].stringValue
   }
 }
-
-extension Character {
-  var stringValue: String { String(self) }
-}
+//
+//extension Character {
+//  var stringValue: String { String(self) }
+//}
 
 extension Substring {
   var string: String { String(self) }

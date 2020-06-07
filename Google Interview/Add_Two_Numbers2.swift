@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class Add_Two_Numbers: NSObject {
+class Add_Two_Numbers2: NSObject {
     public class ListNode {
         public var val: Int
         public var next: ListNode?
